@@ -44,7 +44,7 @@ figure {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -127,4 +127,32 @@ td {
 
 tr:first-child  td{
     border: 0;
+}
+
+
+@media screen and (max-width : 376px) {
+    body {
+        display: block;
+        margin: 0%;
+        background-color: white;
+    }
+    main {
+        padding: 0px;
+    }
+    
+    main>* {
+        margin: 2em;
+    }
+    img {
+        border-radius: 0%;
+    }
+    figure {
+        margin: 0%;
+    }
+    section:has(>h3) {
+        width: 80%;
+    }
+    li,ul,ol {
+        padding-left: 10px;
+    }
 }
