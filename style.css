@@ -74,14 +74,18 @@ h1, h2, h3 {
 
 h1 {
     color: var(--dark-charcoal);
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 section:has(>h2) {
     border-bottom: 1px solid var(--light-grey);
 }
 
-h2, td:last-child {
+h2 {
+    font-size: 2em;
+}
+
+td:last-child {
     color: var(--nutmeg);
     font-weight: 600;
 }
@@ -105,12 +109,12 @@ ul {
 }
 
 ul, ol {
-    padding-left: 15px;
+    padding-left: 5px;
     padding-right: 0%;
 }
 
 li {
-    padding-left: 25px;
+    padding-left: 20px;
     margin: 1em;
 }
 
